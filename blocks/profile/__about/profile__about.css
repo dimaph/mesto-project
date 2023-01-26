@@ -1,0 +1,16 @@
+.profile__about {
+    margin: 0;
+    padding: 16px 0 25px 0;
+    color: #FFF;
+    font-family: 'Inter', Arial, Sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile__about {
+        font-size: calc(14px + ((100vw - 320px) * 0.00568181818));
+        line-height: calc(17px + ((100vw - 320px) * 0.00710227272));
+    }
+}

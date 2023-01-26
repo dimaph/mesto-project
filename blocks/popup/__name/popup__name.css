@@ -1,0 +1,15 @@
+.popup__name {
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin-top: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
