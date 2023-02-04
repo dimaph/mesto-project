@@ -7,6 +7,12 @@
     column-gap: 30px;
 } 
 
+@media screen and (max-width: 1024px) {
+    .profile {
+        column-gap: 15px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .profile {
         display: flex;
@@ -15,8 +21,3 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .profile {
-        column-gap: 15px;
-    }
-}
