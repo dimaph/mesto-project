@@ -11,17 +11,17 @@
   <header class="header">
    <img class="header__logo" src="./images/logo.svg" alt="Логотип МЕСТО">
   </header>
-  <main>
+  <main class="main">
     <section class="profile">
       <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватар Жак-Ив Кусто">
       <div class="profile__info">
         <div class="profile__name-edit">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
-          <input type="button" class="profile__edit" value="profile__edit">
+          <button type="submit" class="profile__edit"></button>
         </div>
         <p class="profile__about">Исследователь океана</p>
       </div>
-      <input type="button" class="profile__add" value="profile__add">
+      <button type="submit" class="profile__add"></button>
     </section>
     <section class="elements">
       <ul class="elements__container">
@@ -30,7 +30,7 @@
             <img  class="card__photo" src="./images/chalis_beach.jpg" alt="Чалыш, Фетхие">
             <div class="card__under-photo">
               <h2 class="card__caption">Чалыш, Фетхие</h2>
-              <img class="card__like" src="./images/like.svg" alt="Сердечко для лайка" >
+              <button type="button" class="card__like"></button>
             </div>
           </article>  
         </li>
@@ -39,7 +39,7 @@
             <img  class="card__photo" src="./images/badabag_mountains.jpg" alt="Гора Бадабаг, Олюдениз">
             <div class="card__under-photo">
               <h2 class="card__caption">Гора Бадабаг</h2>
-              <img class="card__like" src="./images/like.svg" alt="Сердечко для лайка" >
+              <button type="button" class="card__like"></button>
             </div>
           </article>  
         </li>
@@ -48,7 +48,7 @@
             <img  class="card__photo" src="./images/balcony_sunset.jpg" alt="Палтангич, Фетхие">
             <div class="card__under-photo">
               <h2 class="card__caption">Палтангич, Фетхие</h2>
-              <img class="card__like" src="./images/like.svg" alt="Сердечко для лайка" >
+              <button type="button" class="card__like"></button>
             </div>
           </article>  
         </li>
@@ -57,7 +57,7 @@
             <img  class="card__photo" src="./images/umbrella.jpg" alt="Мода, Стамбул">
             <div class="card__under-photo">
               <h2 class="card__caption">Мода, Стамбул</h2>
-              <img class="card__like" src="./images/like.svg" alt="Сердечко для лайка" >
+              <button type="button" class="card__like"></button>
             </div>
           </article>  
         </li>
@@ -66,7 +66,7 @@
             <img  class="card__photo" src="./images/life_is_beautiful.jpg" alt="Графити, Кадыкёй">
             <div class="card__under-photo">
               <h2 class="card__caption">Графити, Кадыкёй</h2>
-              <img class="card__like" src="./images/like.svg" alt="Сердечко для лайка" >
+              <button type="button" class="card__like"></button>
             </div>
           </article>  
         </li>
@@ -75,7 +75,7 @@
             <img  class="card__photo" src="./images/kadikoy_train.jpg" alt="Трамвай, Кадыкёй">
             <div class="card__under-photo">
               <h2 class="card__caption">Трамвай, Кадыкёй</h2>
-              <input type="button" class="card__like" value="card__like">
+              <button type="button" class="card__like"></button>
             </div>
           </article>  
         </li>
@@ -85,15 +85,15 @@
   <footer class="footer">
     <p class="footer__title">© 2023 Mesto Russia</p>
   </footer>
-  <div class="popup popup_opened">
+  <div class="popup popup_openedd">
     <div class="popup__container">
       <h2 class="popup__caption">Редактировать профиль</h2>
       <form class="popup__form" name="popup__form">
-        <input type="text" class="popup__input popup__input_name" placeholder="Жак-Ив Кусто" name="popup__input_name">
-        <input type="text" class="popup__input popup__input_about" placeholder="Исследователь океана" name="popup__input_about">
+        <input type="text" class="popup__input" placeholder="Жак-Ив Кусто" name="popup__input_name">
+        <input type="text" class="popup__input" placeholder="Исследователь океана" name="popup__input_about">
         <input type="submit" class="popup__submit" value="Сохранить">
       </form>
-      <input type="button" class="popup__close" value="popup__close">
+      <button type="button" class="popup__close" value=""></button>
     </div>
   </div>
 </body>

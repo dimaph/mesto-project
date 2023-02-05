@@ -2,12 +2,13 @@
     border-bottom: 1px solid rgba(84, 84, 84, .7);
     margin: 0;
     box-sizing: border-box;
-    padding: 0 0 41px 0;
+    padding: 0 0 31px 0;
 }
 
 @media screen and (max-width: 320px) {
     .header {
         padding-bottom: 31px;
+        padding-left: 19px;
         width: 100%;
     }
 }

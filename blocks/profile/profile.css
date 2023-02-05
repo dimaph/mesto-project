@@ -3,8 +3,9 @@
     padding: 40px 0 0 0;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 120px 1fr 150px;
+    grid-template-columns: 120px minmax(100px, min-content) 1fr;
     column-gap: 30px;
+
 } 
 
 @media screen and (max-width: 1024px) {
