@@ -6,7 +6,6 @@
     font-size: 18px;
     line-height: 22px;
     display: block;
-    max-height: 63px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

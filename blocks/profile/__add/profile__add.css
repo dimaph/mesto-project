@@ -21,6 +21,12 @@
 
 }
 
+@media screen and (max-width: 320px) {
+    .profile__add {
+        background-size: 16px auto;
+    }
+
+}
 
 .profile__add:hover {
     opacity: .6;
